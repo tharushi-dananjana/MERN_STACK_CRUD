@@ -1,14 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
+import ReactDOM from "react-dom/client"; // ✅ Correct import
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-  <BrowserRouter>
-    <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById("root")); // ✅ New API
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
-  </BrowserRouter>,
-  document.getElementById("root")
+    </BrowserRouter>
+  </React.StrictMode>
 );

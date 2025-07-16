@@ -16,24 +16,21 @@ import UserProfile from "./components/User/UserProfile";
 
 function App() {
   return (
-    <React.Fragment>
-      <Routes>
-        {/* Route configuration */}
-        <Route path="/" element={<FirstHome />} />
-        <Route path="/AmainHome" element={<FirstHome />} />
-        <Route path="/adminHome" element={<AdminHome />} />
-        <Route path="/staffHome" element={<StaffHome />} />
-        <Route path="/Aadduser" element={<AddUserA />} />
-        <Route path="/users/:id" element={<UpdateUser />} />
-        <Route path="/Ausers/:id" element={<AupdateUser />} />
-        <Route path="/Susers/:id" element={<SupdateUser />} />
-        <Route path="/maiHome" element={<MainHome />} />
-        <Route path="/Sadduser" element={<AddUserS />} />
-        <Route path="/reg" element={<Regs />} />
-        <Route path="/loginH" element={<Login />} />
-        <Route path="/adduserH" element={<UserProfile />} />
-      </Routes>
-    </React.Fragment>
+    <Routes>
+      <Route path="/" element={<FirstHome />} />
+      <Route path="/AmainHome" element={<FirstHome />} />
+      <Route path="/adminHome" element={<AdminHome />} />
+      <Route path="/staffHome" element={<StaffHome />} />
+      <Route path="/Aadduser" element={<AddUserA />} />
+      <Route path="/users/:id" element={<UpdateUser />} />
+      <Route path="/Ausers/:id" element={<AupdateUser />} />
+      <Route path="/Susers/:id" element={<SupdateUser />} />
+      <Route path="/maiHome" element={<MainHome />} />
+      <Route path="/Sadduser" element={<AddUserS />} />
+      <Route path="/reg" element={<Regs />} />
+      <Route path="/loginH" element={<Login />} />
+      <Route path="/adduserH" element={<UserProfile />} />
+    </Routes>
   );
 }
 
