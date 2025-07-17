@@ -57,8 +57,8 @@ const Sidebar = () => {
         <nav className="nav__container">
           <div>
             <Link to="#" className="nav__link nav__logo">
-              <i className="bx bxs-disc nav__icon"></i>sw
-              <span className="nav__logo-name"> | Simple Web</span>
+              <i className="bx bxs-disc nav__icon"></i>TD
+              <span className="nav__logo-name">|Web</span>
             </Link>
             <div className="nav__list">
               <div className="nav__items">

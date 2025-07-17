@@ -57,33 +57,34 @@ const Sidebar = () => {
       <div className="nav" id="navbar">
         <nav className="nav__container">
           <div>
-            <Link href="#" className="nav__link nav__logo">
-              <i className="bx bxs-disc nav__icon"></i>sw
-              <span className="nav__logo-name"> | Simple Web</span>
+            <Link to="/" className="nav__link nav__logo">
+              <i className="bx bxs-disc nav__icon"></i>TD
+              <span className="nav__logo-name">|Web</span>
             </Link>
             <div className="nav__list">
               <div className="nav__items">
-                <Link href="#" className="nav__link active">
+
+                <Link to="/AmainHome" className="nav__link active">
                   <BiHome className="nav__icon" />
-                  <Link to="/AmainHome"><span className="nav__name">Home</span></Link>
+                  <span className="nav__name">Home</span>
                 </Link>
 
-                <Link href="#" className="nav__link">
+                <Link to="/adminHome" className="nav__link">
                   <RiAdminFill className="nav__icon" />
                   <span className="nav__name">Admin</span>
                 </Link>
 
-                <Link href="#" className="nav__link">
+                <Link to="/staffHome" className="nav__link">
                   <FaUsers className="nav__icon" />
                   <span className="nav__name">Staff</span>
                 </Link>
 
-                <Link href="#" className="nav__link">
+                <Link to="/adduserH" className="nav__link">
                   <BiUser className="nav__icon" />
                   <span className="nav__name">User</span>
                 </Link>
 
-                <Link href="#" className="nav__link nav__logout">
+                <Link to="/" className="nav__link nav__logout">
                   <BiLogOut className="nav__icon" />
                   <span className="nav__name">Log Out</span>
                 </Link>

@@ -16,7 +16,7 @@ export default function MainHome() {
             </div>
             <div class="column2">
               <h2 className='h-h1a'>WELCOME TO</h2>
-              <h2 className='h-h2a'>SIMPLE WEB</h2>
+              <h2 className='h-h2a'>MY WEB</h2>
               <br /><br />
               <div className='bset'>
                 <div className='bt'>
